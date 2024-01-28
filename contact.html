@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- [Q1. Bradley Grover, 1/22/24 -->
+    <title>The BakeShow!</title>
+</head>
+<style>
+    input[type=text],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=number],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=file],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=email],
+    select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+<body>
+    <div class="navbar">
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="nutrition.html">
+                <li>Nutrition Facts</li>
+            </a>
+            <a href="popular_items.html">
+                <li>Popular Items</li>
+            </a>
+            <a href="#">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </div>
+    <div>
+        <form>
+            <h3>Submit an application to join our team!</h3>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" min="16" max="84"><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="file">Resume:</label><br>
+            <input type="file" id="resume" name="resume"><br><br>
+            
+        </form>
+        <form action="index.html">
+            <input type="submit" value="Back to Home"><br><br>
+        </form>
+
+
+        
+    </div>
+    <!-- [Q4. Stage and commit your changes up to this point, with an appropriate commit message about the navbar and title. Don't forget to push to GitHub!] -->
+    <!-- [Q5-Q10. Follow the instructions in the README.md file to complete them] -->
+</body>
+
+</html>
